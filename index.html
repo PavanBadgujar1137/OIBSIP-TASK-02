@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="first-page">
+        <!--Navbar Section-->
+        <div class="navbar">
+          <p id="portname">Pavan Badgujar</p>
+          <ul>
+            <li><a href="#proj">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <button><a id="#hire-me" href="#hire-me">Hire me</a></button>
+            </li>
+          </ul>
+        </div>
+        <!--Hero Section-->
+        <div class="intro-page">
+          <div class="left-intro">
+            <h1>I'm</h1>
+            <span class="role"></span>
+            <p id="self-intro">
+              I’m a software developer and here is my portfolio website. Here
+              you’ll learn about my journey as a frontend developer.
+            </p>
+            <div class="btn">
+              <div class="btn-pink" id="btn-top">Hire me</div>
+            </div>
+            <div class="right-my-image">
+              <img src="images/mee.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Middle Icons-->
+      <div class="middle-icons">
+        <div class="work-name">Worked With</div>
+        <img id="icons-img" src="images/mid-icons.png" alt="" />
+      </div>
+      <hr />
+      <!--Project-Section-->
+      <section id="proj">
+        <div class="projects">Projects</div>
+        <div class="project1">
+          <a href="https://github.com/PavanBadgujar1137/OIBSIP-TASK-01">
+            <figure>
+              <img
+                id="project-img1-left"
+                src="images/landing page.png"
+                alt=""
+              /></figure
+          ></a>
+          <div class="right">
+            <div class="project-name">Landing Page</div>
+            <div class="discrip">
+              I made a Landing Page which help the students how to made that
+              page for student will understand.<br />
+              Technologies HTML and CSS.
+            </div>
+          </div>
+        </div>
+
+        <div class="project2">
+          <div class="right">
+            <div class="project-name">temprature Convertor Tool</div>
+            <div class="discrip">
+              I made a temprature convertor tool which help the students how to
+              made that page for student will understand.<br />
+              Technologies HTML,CSS and JS.
+            </div>
+          </div>
+          <a href="https://github.com/PavanBadgujar1137/OIBSIP-TASK-03">
+            <figure>
+              <img
+                id="project-img1-left"
+                src="images/teprature-convertor-tool.png"
+                alt=""
+              />
+            </figure>
+          </a>
+        </div>
+      </section>
+      <hr />
+
+      <!--About Me Section-->
+      <div id="about-me" class="about-me-section">
+        <div class="about-me-box">
+          <img src="images/mee.png" alt="" class="left-me" />
+          <div class="info-about-me">
+            <div class="about-me-name">About me</div>
+            <div class="who-i-am">WHO AM I</div>
+            <div class="info-lines">
+              My name is Pavan Amrut Badgujar, I am a computer science students
+              and currently work as a front-end developer. I worked as On my
+              Projects during my high school vacation.
+            </div>
+            <div class="btns">
+              <div class="btn-pink" id="btn-top">Hire me</div>
+              <div class="btn-pink" id="btn-top">See My Resume</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <!--Contact Us-->
+      <div id="contact" class="contact-section">
+        <!-- Contact Us -->
+        <div id="contactme" class="contactus-container">
+          <div class="container">
+            <h1 class="contactus-heading">Contact Me</h1>
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+
+            <div class="contactus-form-container">
+              <form
+                class="form"
+                action="https://formspree.io/f/mlekrnnl"
+                method="post"
+              >
+                <div class="formfield-container">
+                  <input
+                    class="formfield"
+                    type="text"
+                    name="name"
+                    id=""
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="formfield-container">
+                  <input
+                    class="formfield"
+                    type="email"
+                    name="email"
+                    id=""
+                    placeholder="Enter your email address"
+                  />
+                </div>
+                <div class="formfield-container">
+                  <input
+                    class="formfield"
+                    type="text"
+                    name="subject"
+                    id=""
+                    placeholder="Enter your subject"
+                  />
+                </div>
+                <div class="formfield-container">
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    class="formfield formfield-textarea"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i
+                      class="submit-icon fa-solid fa-paper-plane"
+                    ></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer id="hire-me">
+        <div class="container footer-wrapper">
+          <div class="footer-faded-text">Pavan Badgujar</div>
+          <div class="link-wrapper">
+            <div>
+              <a href="#proj">Projects</a>
+            </div>
+            <div>
+              <a href="#about-me">Skills</a>
+            </div>
+            <div>
+              <a href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="icon-wrapper">
+            <i class="fa-brands fa-linkedin icon"></i>
+            <i class="fa-brands fa-github icon"></i>
+            <i class="fa-brands fa-twitter icon"></i>
+            <i class="fa-brands fa-instagram icon"></i>
+            <i class="fa-regular fa-envelope icon"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
